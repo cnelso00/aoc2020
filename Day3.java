@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Day3 extends AdventClass {
@@ -29,6 +28,7 @@ public class Day3 extends AdventClass {
         }
         return product;
     }
+
     private class Crawler {
         int x_loc;
         int y_loc;
@@ -69,8 +69,6 @@ public class Day3 extends AdventClass {
         private int TreesEncountered() {
             return Crawl(this.x_loc, this.y_loc);
         }
-
-
 
     }
 }

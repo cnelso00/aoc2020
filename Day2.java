@@ -35,6 +35,7 @@ public class Day2 {
                 "R1: " + getValidEntryCount(this.values) + "\n" +
                 "R2: " + getValidEntryByIndex(this.values ) + "\n";
     }
+
     private class Entry {
 
         int lowest_count;

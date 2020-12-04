@@ -13,8 +13,6 @@ public class Day1 {
         System.out.println("Test 1: " + get2020Product1(input));
         System.out.println("Test 2: " + get2020Product2(input));
 
-
-
     }
 
     public static int getSummingNumber(int num) {
