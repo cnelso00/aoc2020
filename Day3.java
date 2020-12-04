@@ -16,6 +16,10 @@ public class Day3 extends AdventClass {
         int[] one_x = {1};
         int[] three_y = {3};
 
+        /**
+        * I wanted line 24's function call to look like:
+        * getTreesEncountered(this.values, {1}, {3})
+        */
         return "Day3: " + "\n" +
                 "R1: " + getTreesEncountered(this.values, one_x, three_y) + "\n" +
                 "R2: " + getTreesEncountered(this.values, this.x_mov, this.y_mov) + "\n";
