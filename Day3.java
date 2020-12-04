@@ -11,12 +11,13 @@ public class Day3 extends AdventClass {
         this.y_mov = y_mov;
     }
 
+    /**
+     * "new int[]{1}" and "new int[]{3}" correspond to the static values from the first problem
+     * @return
+     */
     public String getResults() {
-        int[] one_x = {1};
-        int[] three_y = {3};
-
         return "Day3: " + "\n" +
-                "R1: " + getTreesEncountered(this.values, one_x, three_y) + "\n" +
+                "R1: " + getTreesEncountered(this.values, new int[]{1}, new int[]{3}) + "\n" +
                 "R2: " + getTreesEncountered(this.values, this.x_mov, this.y_mov) + "\n";
     }
 
