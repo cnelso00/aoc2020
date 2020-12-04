@@ -3,6 +3,9 @@ public class Driver {
 
     public static void main(String[] args) {
 
+        Day4 day4 = new Day4("day4_input.txt");
+        System.out.println(day4.getResults());
+
         /**
          * Day 3 Move Values for each slope
          */
