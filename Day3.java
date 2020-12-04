@@ -16,6 +16,7 @@ public class Day3 extends AdventClass {
      * @return
      */
     public String getResults() {
+      
         return "Day3: " + "\n" +
                 "R1: " + getTreesEncountered(this.values, new int[]{1}, new int[]{3}) + "\n" +
                 "R2: " + getTreesEncountered(this.values, this.x_mov, this.y_mov) + "\n";
